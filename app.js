@@ -1,4 +1,4 @@
-let num = Math.floor(Math.random() * 3) + 1;
+let num = Math.floor(Math.random() * 7) + 1;
 $("#card").wScratchPad({
   size: 100, // The size of the brush/scratch.
   bg: `/images/Gpay_Card ${num}.jpg`, // Background (image path or hex color).
